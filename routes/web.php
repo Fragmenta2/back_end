@@ -18,5 +18,3 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Rutas de Recurso para el AlumnoController (index, create, store, show, edit, update, destroy)
-Route::resource('alumnos', AlumnoController::class);
